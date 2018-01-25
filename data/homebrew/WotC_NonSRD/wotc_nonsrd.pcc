@@ -1,0 +1,11 @@
+CAMPAIGN:Non-SRD Official
+GAMEMODE:5e
+RANK:9
+GENRE:Fantasy
+BOOKTYPE:Homebrew
+SETTING:5e
+TYPE:Homebrew.5eHomebrew
+PUBNAMELONG:WotC Non-SRD Official
+PUBNAMESHORT:WotCNonSRD
+
+SPELL:wotc_nonsrd_spells.lst
