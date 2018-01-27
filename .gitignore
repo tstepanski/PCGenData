@@ -1,0 +1,12 @@
+/docs
+/libs
+/outputsheets
+/plugins
+/preview
+/system
+pcgen.exe
+pcgen.jar
+pcgen.sh
+LICENSE
+logging.properties
+pcgen-batch-convert.jar
