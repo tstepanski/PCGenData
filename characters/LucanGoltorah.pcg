@@ -70,7 +70,7 @@ EXPERIENCETABLE:Default
 # Character Templates
 TEMPLATESAPPLIED:[NAME:First Level|CHOSENTEMPLATE:[NAME:Warlock]]
 TEMPLATESAPPLIED:[NAME:Warlock]
-TEMPLATESAPPLIED:[NAME:Starting Equipment ~ Warlock|CHOSENTEMPLATE:[NAME:Scholar's Pack]|CHOSENTEMPLATE:[NAME:Any Simple Weapon]|CHOSENTEMPLATE:[NAME:light crossbow and 20 bolts]|CHOSENTEMPLATE:[NAME:Leather Armor]|CHOSENTEMPLATE:[NAME:component pouch]]
+TEMPLATESAPPLIED:[NAME:Starting Equipment ~ Warlock|CHOSENTEMPLATE:[NAME:component pouch]|CHOSENTEMPLATE:[NAME:Any Simple Weapon]|CHOSENTEMPLATE:[NAME:light crossbow and 20 bolts]|CHOSENTEMPLATE:[NAME:Leather Armor]|CHOSENTEMPLATE:[NAME:Scholar's Pack]]
 TEMPLATESAPPLIED:[NAME:Leather Armor]
 TEMPLATESAPPLIED:[NAME:Any Simple Weapon|CHOSENTEMPLATE:[NAME:Quarterstaff]]
 TEMPLATESAPPLIED:[NAME:Quarterstaff]

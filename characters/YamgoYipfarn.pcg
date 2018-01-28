@@ -1,0 +1,220 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:5e - Player's Handbook|CAMPAIGN:5e - Volo's Guide to Monsters|CAMPAIGN:5e - Xanathar's Guide To Everything
+VERSION:6.06.01
+ROLLMETHOD:0|EXPRESSION:0
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:0
+POOLPOINTSAVAIL:-1
+GAMEMODE:5e
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Yamgo Yipfarn
+TABNAME:
+PLAYERNAME:Timothy
+HEIGHT:41
+WEIGHT:45
+AGE:61
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:8
+STAT:DEX|SCORE:10
+STAT:CON|SCORE:14
+STAT:INT|SCORE:13
+STAT:WIS|SCORE:12
+STAT:CHA|SCORE:15
+ALIGN:CN
+RACE:Gnome
+
+# Character Class(es)
+CLASS:Sorcerer|LEVEL:3|SKILLPOOL:0|SPELLBASE:CHA|CANCASTPERDAY:99,SorcererCast1,SorcererCast2
+CLASSABILITIESLEVEL:Sorcerer=1|HITPOINTS:6|SKILLSGAINED:0|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Sorcerer=2|HITPOINTS:4|SKILLSGAINED:0|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Sorcerer=3|HITPOINTS:3|SKILLSGAINED:0|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:927
+EXPERIENCETABLE:Default
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Subrace ~ Rock]
+TEMPLATESAPPLIED:[NAME:First Level|CHOSENTEMPLATE:[NAME:Sorcerer]]
+TEMPLATESAPPLIED:[NAME:Sorcerer]
+TEMPLATESAPPLIED:[NAME:Background Equipment ~ Guild Artisan]
+TEMPLATESAPPLIED:[NAME:Starting Equipment ~ Sorcerer|CHOSENTEMPLATE:[NAME:light crossbow and 20 bolts]|CHOSENTEMPLATE:[NAME:component pouch]|CHOSENTEMPLATE:[NAME:Dungeoneer's Pack]]
+TEMPLATESAPPLIED:[NAME:light crossbow and 20 bolts]
+TEMPLATESAPPLIED:[NAME:component pouch]
+TEMPLATESAPPLIED:[NAME:Dungeoneer's Pack]
+
+# Character Region
+REGION:None
+
+# Character Skills
+
+# Character Languages
+LANGUAGE:Common|LANGUAGE:Dwarvish|LANGUAGE:Gnomish
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:Armor Class Method|TYPE:NORMAL|CATEGORY:Special Ability|KEY:AC Tracker ~ No Choice|TYPE:AC_Tracker.AC_Tracker_Choice
+USERPOOL:Armor Class Method|POOLPOINTS:0.0
+ABILITY:Artisan's Tools Proficiency|TYPE:NORMAL|CATEGORY:Internal|KEY:Tool Proficiency ~ Alchemist's Supplies|APPLIEDTO:|TYPE:Tool Proficiency.Tool Proficiency Artisan's Tools
+USERPOOL:Artisan's Tools Proficiency|POOLPOINTS:0.0
+ABILITY:Background|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Background ~ Guild Artisan|TYPE:Background.Background Selection.SpecialQuality|DESC:Gain Insight &amp;amp; Persuasion as class skills|DESC: Gain Insight &amp;amp; Persuasion as class skills.
+USERPOOL:Background|POOLPOINTS:0.0
+ABILITY:Background / Bond|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Custom ~ Bond|APPLIEDTO:Seeks enlightment|TYPE:SpecialQuality.Bond|DESC:%1&pipe;%LIST
+USERPOOL:Background / Bond|POOLPOINTS:0.0
+ABILITY:Background / Flaw|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Custom ~ Flaw|APPLIEDTO:Drunk|TYPE:SpecialQuality.Flaw|DESC:%1&pipe;%LIST
+USERPOOL:Background / Flaw|POOLPOINTS:0.0
+ABILITY:Background / Ideal|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Guild Artisan Ideal ~ 6|TYPE:SpecialQuality.Guild Artisan Ideal.Ideal|DESC:Aspiration. I work hard to be the best there is at my craft.
+USERPOOL:Background / Ideal|POOLPOINTS:0.0
+ABILITY:Background / Personality Trait|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Guild Artisan Personality Trait ~ 6|TYPE:SpecialQuality.Guild Artisan Personality Trait.Personality Trait|DESC:I like to talk at length about my profession.
+ABILITY:Background / Personality Trait|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Guild Artisan Personality Trait ~ 7|TYPE:SpecialQuality.Guild Artisan Personality Trait.Personality Trait|DESC:I don't part with my money easily and will haggle tirelessly to get the best deal possible.
+USERPOOL:Background / Personality Trait|POOLPOINTS:0.0
+ABILITY:Gnome Subrace|TYPE:NORMAL|CATEGORY:Internal|KEY:Gnome Subrace ~ Rock|TYPE:GnomeSubrace
+USERPOOL:Gnome Subrace|POOLPOINTS:0.0
+ABILITY:Guild Artisan Guild Business|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Guild Artisan Guild Business ~ 1|TYPE:SpecialQuality.Guild Artisan Guild Business|DESC:Alchemists and apothecaries
+USERPOOL:Guild Artisan Guild Business|POOLPOINTS:0.0
+ABILITY:Language Selection|TYPE:NORMAL|CATEGORY:Language|KEY:Dwarvish|APPLIEDTO:|TYPE:Language.Spoken.Dwarvish
+USERPOOL:Language Selection|POOLPOINTS:0.0
+ABILITY:Metamagic|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Metamagic ~ Distant Spell|TYPE:Sorcerer Class Feature.SpecialQuality.Class Feature.Metamagic|DESC:When you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range of the spell. When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet.
+ABILITY:Metamagic|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Metamagic ~ Quickened Spell|TYPE:Sorcerer Class Feature.SpecialQuality.Class Feature.Metamagic|DESC:When you cast a spell that has a casting time of 1 action, you can spend 2 sorcery points to change the casting time to 1 bonus action for this casting.
+USERPOOL:Metamagic|POOLPOINTS:0.0
+ABILITY:Sorcerer Cantrip|TYPE:NORMAL|CATEGORY:Internal|KEY:Sorcerer Cantrip ~ Chill Touch|TYPE:Sorcerer Cantrip
+ABILITY:Sorcerer Cantrip|TYPE:NORMAL|CATEGORY:Internal|KEY:Sorcerer Cantrip ~ Fire Bolt|TYPE:Sorcerer Cantrip
+ABILITY:Sorcerer Cantrip|TYPE:NORMAL|CATEGORY:Internal|KEY:Sorcerer Cantrip ~ Mage Hand|TYPE:Sorcerer Cantrip
+ABILITY:Sorcerer Cantrip|TYPE:NORMAL|CATEGORY:Internal|KEY:Sorcerer Cantrip ~ Ray of Frost|TYPE:Sorcerer Cantrip
+USERPOOL:Sorcerer Cantrip|POOLPOINTS:0.0
+ABILITY:Sorcerer Skill|TYPE:NORMAL|CATEGORY:Skill|KEY:Arcana|TYPE:Skill Proficiency.Intelligence
+ABILITY:Sorcerer Skill|TYPE:NORMAL|CATEGORY:Skill|KEY:Intimidation|TYPE:Skill Proficiency.Charisma
+USERPOOL:Sorcerer Skill|POOLPOINTS:0.0
+ABILITY:Sorcerous Origin|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Sorcerous Origin ~ Wild Magic|TYPE:Sorcerer Class Feature.Sorcerous Origin.SpecialQuality.Class Feature|DESC:Your innate magic comes from the wild forces of chaos that underlie the order of creation. You might have endured exposure to some form of raw magic, perhaps through a planar portal leading to Limbo, the Elemental Planes, or the mysterious Far Realm. Perhaps you were blessed by a powerful fey creature or marked by a demon. Or your magic could be a fluke of your birth, with no apparent cause or reason. However it came to be, this chaotic magic churns within you, waiting for any outlet.
+USERPOOL:Sorcerous Origin|POOLPOINTS:0.0
+ABILITY:Starting Equipment|TYPE:NORMAL|CATEGORY:Internal|KEY:Starting Equipment|TYPE:Starting Equipment|DESC:Add this once the character for first level is finished. As the selections will be based upon the current Proficiencies. Also, this will only trigger for the initial first level character.
+USERPOOL:Starting Equipment|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dart|WEAPON:Quarterstaff|WEAPON:Sling]
+
+# Character Equipment
+MONEY:70.00
+EQUIPNAME:Alchemist's Supplies|OUTPUTORDER:0|COST:50|WT:8.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Alchemist's Supplies|DATA:NAME=Alchemist's Supplies]
+EQUIPNAME:Backpack|OUTPUTORDER:0|COST:2|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Backpack|DATA:NAME=Backpack]
+EQUIPNAME:Belt Pouch|OUTPUTORDER:0|COST:0.5|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Belt Pouch|DATA:NAME=Belt Pouch]
+EQUIPNAME:Clothes, Traveler's|OUTPUTORDER:0|COST:2|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Clothes (Traveler's)|DATA:NAME=Clothes, Traveler's$KEY=Clothes (Traveler's)]
+EQUIPNAME:Coin (Gold)|OUTPUTORDER:0|COST:1|WT:0.02|QUANTITY:15.0|NOTE:|CUSTOMIZATION:[BASEITEM:Coin (Gold)|DATA:NAME=Coin (Gold)]
+EQUIPNAME:Component pouch|OUTPUTORDER:0|COST:25|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Component pouch|DATA:NAME=Component pouch]
+EQUIPNAME:Crossbow bolts (20)|OUTPUTORDER:0|COST:1|WT:1.5|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Crossbow bolts (20)|DATA:NAME=Crossbow bolts (20)]
+EQUIPNAME:Crossbow, Light|OUTPUTORDER:0|COST:25|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Crossbow (Light)|DATA:NAME=Crossbow, Light$KEY=Crossbow (Light)]
+EQUIPNAME:Crowbar|OUTPUTORDER:0|COST:2|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Crowbar|DATA:NAME=Crowbar]
+EQUIPNAME:Dagger|OUTPUTORDER:0|COST:2|WT:1.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Dagger]
+EQUIPNAME:Guild Introduction Letter|OUTPUTORDER:0|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Guild Introduction Letter|DATA:NAME=Guild Introduction Letter]
+EQUIPNAME:Hammer|OUTPUTORDER:0|COST:1|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Hammer|DATA:NAME=Hammer]
+EQUIPNAME:Piton|OUTPUTORDER:0|COST:0.05|WT:0.25|QUANTITY:10.0|NOTE:|CUSTOMIZATION:[BASEITEM:Piton|DATA:NAME=Piton]
+EQUIPNAME:Rations (1 day)|OUTPUTORDER:0|COST:0.5|WT:2.0|QUANTITY:10.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rations (1 day)|DATA:NAME=Rations (1 day)]
+EQUIPNAME:Rope, hempen (50 feet)|OUTPUTORDER:0|COST:1|WT:10.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rope (Hempen/50)|DATA:NAME=Rope, hempen (50 feet)$KEY=Rope (Hempen/50)]
+EQUIPNAME:Tinderbox|OUTPUTORDER:0|COST:0.5|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Tinderbox|DATA:NAME=Tinderbox]
+EQUIPNAME:Torch|OUTPUTORDER:0|COST:0.01|WT:1.0|QUANTITY:10.0|NOTE:|CUSTOMIZATION:[BASEITEM:Torch|DATA:NAME=Torch]
+EQUIPNAME:Waterskin|OUTPUTORDER:0|COST:0.2|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Waterskin|DATA:NAME=Waterskin]
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.1|VALUE:Guild Introduction Letter|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.10|VALUE:Backpack|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.11|VALUE:Crowbar|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.12|VALUE:Hammer|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.13|VALUE:Piton|QUANTITY:10.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.14|VALUE:Torch|QUANTITY:10.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.15|VALUE:Tinderbox|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.16|VALUE:Rations (1 day)|QUANTITY:10.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.17|VALUE:Waterskin|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.18|VALUE:Rope, hempen (50 feet)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.2|VALUE:Clothes, Traveler's|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.3|VALUE:Belt Pouch|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.4|VALUE:Coin (Gold)|QUANTITY:15.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.5|VALUE:Alchemist's Supplies|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.6|VALUE:Dagger|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.7|VALUE:Crossbow bolts (20)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.8|VALUE:Crossbow, Light|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.9|VALUE:Component pouch|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+SPELLBOOK:Sorcerer Cantrip|TYPE:4
+SPELLNAME:Chill Touch|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
+SPELLNAME:Fire Bolt|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
+SPELLNAME:Mage Hand|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
+SPELLNAME:Magic Missile|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
+SPELLNAME:Phantasmal Force|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
+SPELLNAME:Ray of Frost|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
+SPELLNAME:Scorching Ray|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
+SPELLNAME:Witch Bolt|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+KIT:Guild Artisan Background
+KIT:Alchemist's Supplies
+KIT:Starting gold ~ Sorcerer
+KIT:two daggers
+KIT:20 bolts
+KIT:Crossbow (Light)
+KIT:component pouch
+KIT:Dungeoneer's Pack
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:1:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+

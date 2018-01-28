@@ -10,3 +10,5 @@ pcgen.sh
 LICENSE
 logging.properties
 pcgen-batch-convert.jar
+pcgen.log*
+
