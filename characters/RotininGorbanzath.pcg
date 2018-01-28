@@ -1,0 +1,214 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:5e - Player's Handbook|CAMPAIGN:5e - Volo's Guide to Monsters|CAMPAIGN:5e - Xanathar's Guide To Everything
+VERSION:6.06.01
+ROLLMETHOD:0|EXPRESSION:0
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:0
+POOLPOINTSAVAIL:-1
+GAMEMODE:5e
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Rotinin Gorbanzath
+TABNAME:
+PLAYERNAME:Sarah
+HEIGHT:58
+WEIGHT:110
+AGE:25
+GENDER:Female
+HANDED:Right
+SKINCOLOR:Cerulean Blue
+EYECOLOR:Ice Blue
+HAIRCOLOR:Pale Violet
+HAIRSTYLE:Long
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:/home/timothy/Pictures/Rotini.jpg
+PORTRAITTHUMBNAILRECT:281,18,141,141
+
+# Character Attributes
+STAT:STR|SCORE:8
+STAT:DEX|SCORE:14
+STAT:CON|SCORE:12
+STAT:INT|SCORE:10
+STAT:WIS|SCORE:13
+STAT:CHA|SCORE:15
+ALIGN:CG
+RACE:Triton
+
+# Character Class(es)
+CLASS:Bard|LEVEL:2|SKILLPOOL:0|SPELLBASE:CHA|CANCASTPERDAY:99,BardCast1
+CLASSABILITIESLEVEL:Bard=1|HITPOINTS:8|SKILLSGAINED:0|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Bard=2|HITPOINTS:5|PRESTAT:CON=0|PRESTAT:INT=-3|PRESTAT:WIS=3|SKILLSGAINED:0|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:300
+EXPERIENCETABLE:Default
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:First Level|CHOSENTEMPLATE:[NAME:Bard]]
+TEMPLATESAPPLIED:[NAME:Bard]
+TEMPLATESAPPLIED:[NAME:Background Equipment ~ Entertainer]
+TEMPLATESAPPLIED:[NAME:Starting Equipment ~ Bard|CHOSENTEMPLATE:[NAME:Rapier]|CHOSENTEMPLATE:[NAME:Any musical instrument]|CHOSENTEMPLATE:[NAME:Entertainer's Pack]]
+TEMPLATESAPPLIED:[NAME:Rapier]
+TEMPLATESAPPLIED:[NAME:Entertainer's Pack]
+TEMPLATESAPPLIED:[NAME:Any musical instrument|CHOSENTEMPLATE:[NAME:Flute]]
+TEMPLATESAPPLIED:[NAME:Flute]
+
+# Character Region
+REGION:None
+
+# Character Skills
+
+# Character Languages
+LANGUAGE:Common|LANGUAGE:Primordial
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:Armor Class Method|TYPE:NORMAL|CATEGORY:Special Ability|KEY:AC Tracker ~ Natural Armor|TYPE:AC_Tracker.AC_Tracker_Choice.AC_Tracker_SelectionMade
+USERPOOL:Armor Class Method|POOLPOINTS:0.0
+ABILITY:Background|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Background ~ Entertainer|TYPE:Background.Background Selection.SpecialQuality|DESC:Equipment&colon; A musical instrument (one of your choice), the favor of an admirer (love letter, lock of hair, or trinket), a costume, and a belt pouch containing 15 gp|DESC: Gain Acrobatics &amp;amp; Performance as class skills.
+USERPOOL:Background|POOLPOINTS:0.0
+ABILITY:Background / Bond|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Entertainer Bond ~ 6|TYPE:SpecialQuality.Entertainer Bond.Bond|DESC:I would do anything for the other members of my old troupe.
+USERPOOL:Background / Bond|POOLPOINTS:0.0
+ABILITY:Background / Flaw|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Entertainer Flaw ~ 6|TYPE:SpecialQuality.Entertainer Flaw.Flaw|DESC:Despite my best efforts, I am unreliable to my friends.
+USERPOOL:Background / Flaw|POOLPOINTS:0.0
+ABILITY:Background / Ideal|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Entertainer Ideal ~ 3|TYPE:SpecialQuality.Entertainer Ideal.Ideal|DESC:Creativity. The world is in need of new ideas and bold action. (Chaotic)
+USERPOOL:Background / Ideal|POOLPOINTS:0.0
+ABILITY:Background / Personality Trait|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Entertainer Personality Trait ~ 4|TYPE:SpecialQuality.Entertainer Personality Trait.Personality Trait|DESC:Nobody stays angry at me or around me for long, since I can defuse any amount of tension.
+ABILITY:Background / Personality Trait|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Entertainer Personality Trait ~ 8|TYPE:SpecialQuality.Entertainer Personality Trait.Personality Trait|DESC:I change my mood or my mind as quickly as I change key in a song.
+USERPOOL:Background / Personality Trait|POOLPOINTS:0.0
+ABILITY:Background / Quirk|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Triton Quirk ~ 4|TYPE:SpecialQuality.Triton Quirk.Quirk|DESC:You assume that people are telling you the truth about local customs and expectations.
+USERPOOL:Background / Quirk|POOLPOINTS:0.0
+ABILITY:Bard Cantrip|TYPE:NORMAL|CATEGORY:Internal|KEY:Bard Cantrip ~ Dancing Lights|TYPE:Bard Cantrip
+ABILITY:Bard Cantrip|TYPE:NORMAL|CATEGORY:Internal|KEY:Bard Cantrip ~ Minor Illusion|TYPE:Bard Cantrip
+USERPOOL:Bard Cantrip|POOLPOINTS:0.0
+ABILITY:Bard Skill|TYPE:NORMAL|CATEGORY:Skill|KEY:Animal Handling|TYPE:Skill Proficiency.Wisdom
+ABILITY:Bard Skill|TYPE:NORMAL|CATEGORY:Skill|KEY:Persuasion|TYPE:Skill Proficiency.Charisma
+ABILITY:Bard Skill|TYPE:NORMAL|CATEGORY:Skill|KEY:Sleight of Hand|TYPE:Skill Proficiency.Dexterity
+USERPOOL:Bard Skill|POOLPOINTS:0.0
+ABILITY:Bard Tool Proficiency|TYPE:NORMAL|CATEGORY:Internal|KEY:Tool Proficiency ~ Drum|APPLIEDTO:|TYPE:Tool Proficiency.Tool Proficiency Musical Instrument
+ABILITY:Bard Tool Proficiency|TYPE:NORMAL|CATEGORY:Internal|KEY:Tool Proficiency ~ Flute|APPLIEDTO:|TYPE:Tool Proficiency.Tool Proficiency Musical Instrument
+ABILITY:Bard Tool Proficiency|TYPE:NORMAL|CATEGORY:Internal|KEY:Tool Proficiency ~ Horn|APPLIEDTO:|TYPE:Tool Proficiency.Tool Proficiency Musical Instrument
+USERPOOL:Bard Tool Proficiency|POOLPOINTS:0.0
+ABILITY:Entertainer Routine|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Entertainer Routine ~ 2|TYPE:SpecialQuality.Entertainer Routine|DESC:Dancer
+ABILITY:Entertainer Routine|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Entertainer Routine ~ 8|TYPE:SpecialQuality.Entertainer Routine|DESC:Singer
+ABILITY:Entertainer Routine|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Entertainer Routine ~ 9|TYPE:SpecialQuality.Entertainer Routine|DESC:Storyteller
+USERPOOL:Entertainer Routine|POOLPOINTS:0.0
+ABILITY:Musical Instrument Proficiency|TYPE:NORMAL|CATEGORY:Internal|KEY:Tool Proficiency ~ Bagpipes|APPLIEDTO:|TYPE:Tool Proficiency.Tool Proficiency Musical Instrument
+USERPOOL:Musical Instrument Proficiency|POOLPOINTS:0.0
+ABILITY:Starting Equipment|TYPE:NORMAL|CATEGORY:Internal|KEY:Starting Equipment|TYPE:Starting Equipment|DESC:Add this once the character for first level is finished. As the selections will be based upon the current Proficiencies. Also, this will only trigger for the initial first level character.
+USERPOOL:Starting Equipment|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Club|WEAPON:Crossbow (Hand)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dart|WEAPON:Greatclub|WEAPON:Handaxe|WEAPON:Javelin|WEAPON:Light Hammer|WEAPON:Longsword]
+WEAPONPROF:[WEAPON:Mace|WEAPON:Quarterstaff|WEAPON:Rapier|WEAPON:Shortbow|WEAPON:Shortsword|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Unarmed Strike]
+
+# Character Equipment
+MONEY:150.00
+EQUIPNAME:Backpack|OUTPUTORDER:0|COST:2|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Backpack|DATA:NAME=Backpack]
+EQUIPNAME:Bedroll|OUTPUTORDER:0|COST:1|WT:7.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bedroll|DATA:NAME=Bedroll]
+EQUIPNAME:Belt Pouch|OUTPUTORDER:0|COST:0.5|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Belt Pouch|DATA:NAME=Belt Pouch]
+EQUIPNAME:Candle|OUTPUTORDER:0|COST:0.01|WT:0.0|QUANTITY:5.0|NOTE:|CUSTOMIZATION:[BASEITEM:Candle|DATA:NAME=Candle]
+EQUIPNAME:Clothes, Costume|OUTPUTORDER:0|COST:5|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Clothes (Costume)|DATA:NAME=Clothes, Costume$KEY=Clothes (Costume)]
+EQUIPNAME:Coin (Gold)|OUTPUTORDER:0|COST:1|WT:0.02|QUANTITY:15.0|NOTE:|CUSTOMIZATION:[BASEITEM:Coin (Gold)|DATA:NAME=Coin (Gold)]
+EQUIPNAME:Dagger|OUTPUTORDER:0|COST:2|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Dagger]
+EQUIPNAME:Disguise Kit|OUTPUTORDER:0|COST:25|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Disguise Kit|DATA:NAME=Disguise Kit]
+EQUIPNAME:Favor of Admirer (Tricket)|OUTPUTORDER:0|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Favor of Admirer (Tricket)|DATA:NAME=Favor of Admirer (Tricket)]
+EQUIPNAME:Flute|OUTPUTORDER:0|COST:2|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Flute|DATA:NAME=Flute]
+EQUIPNAME:Leather|OUTPUTORDER:0|COST:10|WT:10.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Leather|DATA:NAME=Leather]
+EQUIPNAME:Rapier|OUTPUTORDER:0|COST:25|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rapier|DATA:NAME=Rapier]
+EQUIPNAME:Rations (1 day)|OUTPUTORDER:0|COST:0.5|WT:2.0|QUANTITY:5.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rations (1 day)|DATA:NAME=Rations (1 day)]
+EQUIPNAME:Waterskin|OUTPUTORDER:0|COST:0.2|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Waterskin|DATA:NAME=Waterskin]
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.1|VALUE:Clothes, Costume|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.10|VALUE:Bedroll|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.11|VALUE:Clothes, Costume|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.12|VALUE:Candle|QUANTITY:5.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.13|VALUE:Rations (1 day)|QUANTITY:5.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.14|VALUE:Waterskin|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.15|VALUE:Disguise Kit|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.16|VALUE:Flute|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.2|VALUE:Belt Pouch|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.3|VALUE:Coin (Gold)|QUANTITY:15.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.4|VALUE:Flute|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.5|VALUE:Favor of Admirer (Tricket)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.6|VALUE:Leather|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.7|VALUE:Dagger|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.8|VALUE:Rapier|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.9|VALUE:Backpack|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+SPELLBOOK:Triton Innate Spellcasting|TYPE:4
+SPELLBOOK:Bard Cantrip|TYPE:4
+SPELLNAME:Animal Friendship|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Charm Person|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Dancing Lights|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Dissonant Whispers|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Healing Word|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Minor Illusion|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Sleep|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Bard]
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+KIT:Entertainer Background
+KIT:Instrument Flute
+KIT:Favor of Admirer (Tricket)
+KIT:Starting gold ~ Bard
+KIT:Leather armor
+KIT:Dagger
+KIT:Rapier
+KIT:Entertainer's Pack
+KIT:Flute
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:1:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:DEITY|REGION
+
